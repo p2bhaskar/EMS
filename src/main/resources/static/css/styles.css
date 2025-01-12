@@ -1,0 +1,45 @@
+/* Custom styling for Employee Management System */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    margin-bottom: 1.5rem;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.btn-group {
+    gap: 0.25rem;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+}
+
+.main-content {
+    margin-bottom: 100px; /* Space for fixed footer */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-md-4 {
+        margin-bottom: 1rem;
+    }
+}
